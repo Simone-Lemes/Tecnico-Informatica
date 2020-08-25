@@ -1,0 +1,2 @@
+# Tecnico-Informatica
+ Algoritmos básicos
