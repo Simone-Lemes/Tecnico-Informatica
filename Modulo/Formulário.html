@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Cadastro de Cliente </title>
+</head>
+   <body>
+    <h1> Cadastro de Cliente </h1> 
+    <form action="Script_do_Formulario.php" method="post">
+   
+   <!-- DADOS PESSOAIS-->
+   <fieldset>
+   <legend>Dados Pessoais</legend>
+    <table cellspacing="8">
+     <tr>
+     <td>
+     <label for="nome">Nome Completo: </label>
+     </td>
+        <td align="left">
+        <input type="text" name="email">
+     </td>
+     </tr>
+
+     <tr>
+     <td>
+     <label for="login">Login de usu&aacute;rio: </label>
+     </td>
+     <td align="left">
+     <input type="text" name="login">
+     </td>
+     <td>
+     <label for="pass">Senha: </label>
+     </td>
+     <td align="left">
+     <input type="password" name="pass">
+     </td>
+     </tr>
+
+
+<tr> 
+<td>
+	<label for="Funç&atilde;o">Descri&ccedil;&atilde;o da Fun&ccedil;&atilde;o: </label>
+</td>
+<td>
+	<textarea rows="10" cols="25" id="text">
+		
+	</textarea> 
+</td>
+</tr>
+
+
+      <!-- ENDEREÇO -->
+<tr>
+   <td>
+    <label for="estado">Estado:</label>
+   </td>
+   <td align="left">
+    <select name="estado"> 
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amap&aacute;</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Cear&aacute;</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Esp&iacute;rito Santo</option> 
+    <option value="go">Goi&aacute;s</option> 
+    <option value="ma">Maranh&atilde;o</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Par&aacute;</option> 
+    <option value="pb">Para&iacute;ba</option> 
+    <option value="pr">Paran&aacute;</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piau&iacute;	</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rond&ocirc;nia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">S&atilde;o Paulo</option> 
+    <option value="to">Tocantins</option> 
+   </select>
+   </td>
+  </tr>
+  
+   <td>
+     <label for="Carteira">Possui Carteira de Trabalho: </label>
+     </td>
+  <td>
+<form>
+<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> 
+</form>
+</td>
+
+<tr>
+<td>
+     <label for="Condução">Possui Meio de Condu&ccedil;&atilde;o Pr&oacute;pria: </label>
+     </td>
+  <td>
+<form>
+<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> 
+</form>
+</td>
+</tr>
+
+  <td>
+     <label for="e-mail">Deseja receber nossas informa&ccedil;&otilde;es por e-mail : </label> 
+     </td>
+  <td>
+<form>
+<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Sim, desejo
+</form>
+</td>
+
+<tr>
+  <td>
+     <label for="estadocivil">Estado Civil: </label>
+     </td>
+     </tr>
+  <tr>
+  <td>
+  <form>
+<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Solteiro
+<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Casado
+<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Outros
+  </form>
+ 
+</td>
+</tr>
+ <td>
+     <label for="jornadadetrabalho">Jornada de Trabalho: </label>
+     </td>
+  <tr>
+  <td>
+  <form>
+<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Manh&atilde;
+<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Tarde
+<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> Noite
+</form>
+</td>
+</tr>
+
+ </table>
+</fieldset>
+<br />
+<input type="submit">
+<input type="reset" value="Limpar">
+</form>
+     </tr>
+
+
+
+</body>
+</html>
+	
+
+
